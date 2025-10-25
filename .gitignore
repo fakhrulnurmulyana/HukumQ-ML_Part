@@ -1,0 +1,101 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+*.egg
+*.egg-info/
+*.log
+*.pot
+*.pyc
+*.pkl
+*.db
+*.sqlite3
+
+# ===============================
+# Virtual environment
+# ===============================
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# Configuration & Secrets
+# ===============================
+config/.env
+config/.env.local
+config/.env.*.local
+# keep example env
+!config/.env.example
+
+# ===============================
+# Jupyter Notebook
+# ===============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ===============================
+# Data folders
+# ===============================
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# ===============================
+# Output folders
+# ===============================
+outputs/
+logs/
+reports/
+figures/
+*.csv
+*.tsv
+*.parquet
+
+# ===============================
+# Models
+# ===============================
+models/
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.joblib
+*.pkl
+*.sav
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# ===============================
+# OS files
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Tests / Coverage
+# ===============================
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
