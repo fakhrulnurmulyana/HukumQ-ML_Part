@@ -1,7 +1,37 @@
-# ML_Capstone
+# HukumQ-ML Part
 
-## Project Structure (temp)
+<p align="center">
+  <img width="300px" src="https://imgur.com/IGt1Phq.png"/>
+</p>
 
+## Table of Contents
+1. [About The Project](#about-the-project)
+2. [Technology Stack](#technology-stack)
+3. [Project Structure](#project-structure)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Model Training & Evaluation](#model-training--evaluation)
+7. [License](#license)
+
+## About The Project
+HukumQ is a mobile application designed to increase public awareness of legal regulations in Indonesia.  
+We aim to bridge the gap between people and regulations, providing a user-friendly platform for easily accessible legal information.
+
+**ML Part Overview:**   
+- Modular pipeline for data preprocessing, feature engineering, training, and evaluation  
+
+**Project Status:**  
+This was my first machine learning project. Initially paused to focus on fundamentals, now revisiting it with a cleaner, modular, and industry-standard structure.
+
+## Technology Stack
+<p align="center">
+  <img width="65px" src="https://imgur.com/SQMaw04.png"/></a>&#8287;&#8287;&#8287;&#8287;&#8287;
+  <img width="50px" src="https://imgur.com/l1a3XsY.png"/></a>&#8287;&#8287;&#8287;&#8287;&#8287;
+  <img width="50px" src="https://imgur.com/hWkj1WQ.png"/></a>&#8287;&#8287;&#8287;&#8287;&#8287;
+  <img width="50px" src="https://imgur.com/OwWy9VI.png"/></a>&#8287;&#8287;&#8287;&#8287;&#8287;
+</p>
+
+## Project Structure
 ```bash
 HUKUMQ-ML_PART/
 ├── data/
@@ -56,8 +86,9 @@ HUKUMQ-ML_PART/
 │   │   └── timer.py
 │   │
 │   └── visualization/
-│       ├── __init__.py
-│       └── __init__.py   # kemungkinan duplikat
+│   │   ├── __init__.py
+│   │
+│   └── __init__.py
 │
 ├── tests/
 │
@@ -66,10 +97,27 @@ HUKUMQ-ML_PART/
 └── requirements.txt
 ```
 
-## Project Status
+## Installation
+1. Clone repository:
+```bash
+git clone https://github.com/fakhrulnurmulyana/HukumQ-ML_Part.git
+cd HUKUMQ-ML_PART
+````
 
-This was my first project when I started learning machine learning.  
-Initially, the development was paused as I focused on understanding the fundamentals.  
+2. Install dependencies:
 
-Now, I’m revisiting the project to rebuild it with a more modular and industry-standard structure.  
-The first step is reorganizing the files and folders to make the project cleaner and easier to maintain.
+```bash
+pip install -r requirements.txt
+```
+
+3. Optional: Setup virtual environment (recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
+
+## License
+
+MIT License – see [LICENSE](LICENSE) file for details.
